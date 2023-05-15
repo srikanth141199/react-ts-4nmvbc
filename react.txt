@@ -1,0 +1,43 @@
+TWA vs SPA
+
+Web Application ->  An app which is hosted in a server and is accessed using a url.
+This can be ran on desktop or a mobile
+
+web application available from over 25 years
+
+
+TWA ->Traditional web application
+SPA -> Single page applications(WiproOne)
+
+Web Applicatiuon : Refresh - Reloading the page 
+
+1. Request sent to server.
+2. Based on the response from the server (server return the HTML)
+3. Based on response browser will construct DOM.
+
+Traditional Web App:
+
+A traditional web application follows a more conventional approach where each user action typically triggers a server request, causing the entire web page to refresh. In this model, the server is responsible for rendering and delivering complete HTML pages to the client browser.
+
+
+Full page reload: User interactions result in complete page reloads, as the server generates a new HTML response. Reloads DOM.
+
+Server-driven rendering: The server processes user requests and renders HTML pages, which are then sent to the client.
+
+Limited interactivity: As each user action triggers a server request, the application's interactivity is limited to the data and functionality available in the server response.
+
+-> sutable for static web pages with less server interaction.
+
+Single-Page App (SPA):
+
+A single-page application, as the name suggests, operates within a single HTML page that is loaded initially, and subsequent interactions are handled on the client side without requiring full page reloads. SPAs use JavaScript frameworks like React, Angular, or Vue.js to manage the application state and dynamically update the UI.
+
+Dynamic content updates: User interactions trigger client-side JavaScript code to fetch data from APIs and update the UI dynamically without reloading the entire page.
+
+Enhanced interactivity: SPAs provide a more interactive and responsive user experience as the application can respond quickly to user actions without server round-trips.
+
+Client-side rendering: The server primarily serves the initial HTML, CSS, and JavaScript assets, and most of the rendering and UI updates are performed on the client side.
+
+SPA is also a component based development, where pages are divided into multiple components.
+
+
