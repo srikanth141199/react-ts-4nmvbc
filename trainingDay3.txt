@@ -1,0 +1,32 @@
+VDOM -> Virtual DOM 
+
+Rendering and Re-Rendring 
+
+Rendering refers to the process of generating the user interface (UI) based on the current state and props of a component. It involves creating the necessary DOM elements and updating them to reflect the desired UI. Rendering occurs when a component is initially mounted on the DOM or when its state or props change.
+
+In React, rendering is typically done by calling the render() method of a component. This method returns a React element or a tree of elements that describe what should be displayed on the screen. The returned elements are then transformed into the actual DOM elements and added to the DOM.
+
+Re-rendering, on the other hand, refers to the process of updating the UI when the state or props of a component change. When a component's state or props are modified, React automatically triggers a re-rendering of the component. During re-rendering, the render() method is called again to generate a new set of elements based on the updated state or props.
+
+It's important to note that React employs a diffing algorithm during the re-rendering process to determine the minimal set of changes needed to update the real DOM. Instead of re-rendering the entire component tree, React compares the new set of elements with the previous set, identifies the differences, and only applies the necessary updates to the real DOM.
+
+Re-rendering is a key concept in React and is central to the virtual DOM approach. By efficiently updating only the necessary parts of the UI, React optimizes performance and ensures that the application stays responsive, even when dealing with complex and dynamic user interfaces.
+
+VDOM is a unique React feature, which gives a high run time performance. -> this will increase performance
+
+it only updated the specifix element of the DOM, no need to update whole DOM
+
+comparing DOM is Diffing
+Updating original DOM -> Re-consilation
+
+batch process - batch wise will update the original DOM.
+
+why VDOM not enabled in Angular ? -> need to check
+
+create-react-app -> is we have installed the tool,
+npx create-react-app -> if the create-react-app not installed.
+
+npm start -> to compile, run and build.
+
+
+having huge Node-modules size won'r effect the application.
