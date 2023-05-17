@@ -28,5 +28,4 @@ npx create-react-app -> if the create-react-app not installed.
 
 npm start -> to compile, run and build.
 
-
 having huge Node-modules size won'r effect the application.
