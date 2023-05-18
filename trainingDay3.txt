@@ -32,3 +32,5 @@ having huge Node-modules size won'r effect the application.
 
 
 what is state Management in React?
+
+what is state and state less component?
