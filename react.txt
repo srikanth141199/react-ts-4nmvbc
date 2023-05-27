@@ -39,5 +39,3 @@ Enhanced interactivity: SPAs provide a more interactive and responsive user expe
 Client-side rendering: The server primarily serves the initial HTML, CSS, and JavaScript assets, and most of the rendering and UI updates are performed on the client side.
 
 SPA is also a component based development, where pages are divided into multiple components.
-
-
